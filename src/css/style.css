@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.main-container .perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-container .perfil p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.main-container .perfil .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-container .perfil .title img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.main-container .perfil .title h1 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.main-container .perfil .title p {
+  color: #c5f82a;
+}
+
+.main-container .button-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-container .button-links a {
+  background-color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.main-container .button-links a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  font-size: 14px;
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #5170fa;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+  color: #002fff;
+}
